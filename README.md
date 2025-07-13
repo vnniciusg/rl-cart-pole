@@ -95,12 +95,9 @@ rl-cart-pole/
 
 ## 📊 Results
 
-The agent typically learns to balance the pole for the maximum 500 steps within 200-300 episodes. Training results include:
+![Training Results](assets/training_results.png)
 
-- Episode rewards over time
-- Moving average performance
-- Epsilon decay visualization
-- Best episode recordings
+Also you can see some videos with the agent interaction in the enviroment in the `assets/traning_videos`
 
 ## 🎥 Video Output
 
