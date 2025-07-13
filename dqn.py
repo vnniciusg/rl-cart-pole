@@ -1,5 +1,3 @@
-import numpy as np
-
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -16,7 +14,7 @@ class DeepQNetwork(nn.Module):
         self.n_actions = n_actions
 
         # network layers
-        self.fc1 = nn.Linear(*self.n_input_dims, self.fc1_dims)
+        self.fc1 = nn.Linear(*self.input_dims, self.fc1_dims)
         self.fc2 = nn.Linear(self.fc1_dims, self.fc2_dims)
         self.fc3 = nn.Linear(self.fc2_dims, self.n_actions)
         
